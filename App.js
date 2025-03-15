@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import HomeScreen from './pages/Inicio';
+import AboutScreen from './pages/vacinacao';
+import LoginConta from './pages/login';
 
 export default function App() {
+  const [telaAtual, setTelaAtual] = useState('Home');
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      {telaAtual === 'Home' && <HomeScreen mudarTela={setTelaAtual} />}
+      {telaAtual === 'About' && <AboutScreen mudarTela={setTelaAtual} />}
+      {telaAtual === 'login' && <LoginConta mudarTela={setTelaAtual} />}
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

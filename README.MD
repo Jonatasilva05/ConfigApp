@@ -95,3 +95,21 @@ acesse:
    ```bash
       npx expo install react-native-gesture-handler
    ```
+
+<br><br><br>
+### Outras Configurações
+
+##### Se precisar atualizar o npm execute no termial:
+   ```bash
+      npm update
+   ```
+
+##### Se quiser saber quais bibliotecas estão desatualizadas execute:
+   ```bash
+      npm outdated
+   ```
+
+##### Se quiser atualizar manualmente as bibliotecas estão desatualizadas execute:
+   ```bash
+      npm install <nome-biblioteca-desatualizada>@latest
+   ```

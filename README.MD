@@ -96,7 +96,8 @@ acesse:
       npx expo install react-native-gesture-handler
    ```
 
-<br><br><br>
+<br><br>
+
 ### Outras Configurações
 
 ##### Se precisar atualizar o npm execute no termial:

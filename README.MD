@@ -114,3 +114,35 @@ acesse:
    ```bash
       npm install <nome-biblioteca-desatualizada>@latest
    ```
+
+<br><br><br><br><br>
+
+# CRIANDO APP DE OUTRA FORMA(npx create-expo-app nome-seu-projeto)
+## Para criar primeiro execute:
+  ```bash
+      npx create-expo-app nome-seu-projeto
+   ```
+
+## Entrar na pasta do seu arquivo
+
+   ```bash
+      cd nome-seu-projeto
+   ```
+
+## Em seguinte execute:
+
+   ```bash
+      npm install 
+   ```
+
+##### Para instalar as dependencias
+
+## Então de um "start" no projeto:
+
+   ```bash
+      npx expo start
+   ```
+
+
+
+
